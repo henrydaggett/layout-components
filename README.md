@@ -4,7 +4,7 @@ Use these web components to cover basic layouts in HTML. The components are buil
 
 To use them from CDN add this script to your HTML: 
 ``` html
-<script type='module' src='https://unpkg.com/layout-comp@0.0.1/dist/layout-components/layout-components.esm.js'></script>
+<script type='module' src='https://unpkg.com/layout-wc@0.0.3/dist/layout-components/layout-components.esm.js'></script>
 ```
 
 ### h-flex
