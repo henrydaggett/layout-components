@@ -1,5 +1,5 @@
 {
-  "name": "layout-comp",
+  "name": "layout-wc",
   "version": "0.0.1",
   "description": "Basic layout web components built with StencilJS",
   "main": "dist/index.cjs.js",
