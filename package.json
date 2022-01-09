@@ -1,7 +1,8 @@
 {
   "name": "layout-wc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic layout web components built with StencilJS",
+  "keywords": ["HTML", "CSS", "Layout", "Web components", "Stencil"],
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
