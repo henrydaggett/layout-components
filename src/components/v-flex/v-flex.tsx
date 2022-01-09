@@ -1,11 +1,11 @@
 import { Component, Host, h } from '@stencil/core';
 
 @Component({
-  tag: 'v-stack',
-  styleUrl: 'v-stack.css',
+  tag: 'v-flex',
+  styleUrl: 'v-flex.css',
   shadow: true,
 })
-export class VStack {
+export class VFlex {
 
   render() {
     return (

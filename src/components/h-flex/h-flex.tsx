@@ -1,11 +1,11 @@
 import { Component, Host, h } from '@stencil/core';
 
 @Component({
-  tag: 'h-stack',
-  styleUrl: 'h-stack.css',
+  tag: 'h-flex',
+  styleUrl: 'h-flex.css',
   shadow: true,
 })
-export class HStack {
+export class HFlex {
 
   render() {
     return (

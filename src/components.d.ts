@@ -6,45 +6,45 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface HStack {
+    interface HFlex {
     }
-    interface VStack {
+    interface VFlex {
     }
 }
 declare global {
-    interface HTMLHStackElement extends Components.HStack, HTMLStencilElement {
+    interface HTMLHFlexElement extends Components.HFlex, HTMLStencilElement {
     }
-    var HTMLHStackElement: {
-        prototype: HTMLHStackElement;
-        new (): HTMLHStackElement;
+    var HTMLHFlexElement: {
+        prototype: HTMLHFlexElement;
+        new (): HTMLHFlexElement;
     };
-    interface HTMLVStackElement extends Components.VStack, HTMLStencilElement {
+    interface HTMLVFlexElement extends Components.VFlex, HTMLStencilElement {
     }
-    var HTMLVStackElement: {
-        prototype: HTMLVStackElement;
-        new (): HTMLVStackElement;
+    var HTMLVFlexElement: {
+        prototype: HTMLVFlexElement;
+        new (): HTMLVFlexElement;
     };
     interface HTMLElementTagNameMap {
-        "h-stack": HTMLHStackElement;
-        "v-stack": HTMLVStackElement;
+        "h-flex": HTMLHFlexElement;
+        "v-flex": HTMLVFlexElement;
     }
 }
 declare namespace LocalJSX {
-    interface HStack {
+    interface HFlex {
     }
-    interface VStack {
+    interface VFlex {
     }
     interface IntrinsicElements {
-        "h-stack": HStack;
-        "v-stack": VStack;
+        "h-flex": HFlex;
+        "v-flex": VFlex;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "h-stack": LocalJSX.HStack & JSXBase.HTMLAttributes<HTMLHStackElement>;
-            "v-stack": LocalJSX.VStack & JSXBase.HTMLAttributes<HTMLVStackElement>;
+            "h-flex": LocalJSX.HFlex & JSXBase.HTMLAttributes<HTMLHFlexElement>;
+            "v-flex": LocalJSX.VFlex & JSXBase.HTMLAttributes<HTMLVFlexElement>;
         }
     }
 }

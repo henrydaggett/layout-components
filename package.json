@@ -1,7 +1,7 @@
 {
-  "name": "layout-web-components",
+  "name": "layout-comp",
   "version": "0.0.1",
-  "description": "Layout web components build with StencilJS",
+  "description": "Basic layout web components built with StencilJS",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
